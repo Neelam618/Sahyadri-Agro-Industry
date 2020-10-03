@@ -1115,10 +1115,14 @@ Product list
 --------------------------------------------
 */
 table thead{
-  background-color: rgba(104,204,152,1);
+  background-color: #2c0703;
+  color: white;
+}
+tbody{
+  /*background-color: #ebd4cb;*/
 }
 .table-hover tbody tr:hover {
-    background: #fce8dc;
+    background: #ebd4cb;
 }
 @media screen and (max-width:576px){
   .table-container{
