@@ -536,7 +536,7 @@ header
   height: 40px;
   text-indent: -9999em;
   z-index: 99;
-  right: 40px;
+  right: 15px;
   display: none;
 }
 
@@ -682,9 +682,6 @@ header
   .header-area .container {
     padding: 0px;
   }
-  .header-area .logo {
-    margin-left: 30px;
-  }
   .header-area .menu-trigger {
     display: block !important;
   }
@@ -763,6 +760,12 @@ header
   .header-area .main-nav .nav {
     display: flex !important;
   }
+}
+@media (max-width: 991px) {
+    .header-area .main-nav .logo {
+      font-size: 10px;
+    }
+
 }
 
 
@@ -1103,6 +1106,28 @@ subscribe
   #subscribe fieldset {
     text-align: center;
     margin-bottom: 20px;
+  }
+}
+
+/*
+--------------------------------------------
+Product list
+--------------------------------------------
+*/
+table thead{
+  background-color: rgba(104,204,152,1);
+}
+.table-hover tbody tr:hover {
+    background: #fce8dc;
+}
+@media screen and (max-width:576px){
+  .table-container{
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width:440px){
+  .table-container{
+    font-size: 0.6rem;
   }
 }
 
