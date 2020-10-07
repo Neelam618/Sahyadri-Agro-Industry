@@ -1121,7 +1121,27 @@ table thead{
 .table-hover tbody tr:hover {
     background: #ebd4cb;
 }
-
+@media screen and (min-width:1000px){
+  .table-container{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:950px){
+    .table-container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px){
+  .table{
+    font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:440px){
+  .table{
+    font-size: 0.6rem;
+  }
+}
 /*
 --------------------------------------------
 testimonials
