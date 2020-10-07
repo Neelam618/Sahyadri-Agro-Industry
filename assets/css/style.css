@@ -295,7 +295,7 @@ a.text-button-icon:hover i {
 
 
 .section-heading h6 {
-  font-size: 15px;
+  font-size: 30px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.25px;
@@ -909,7 +909,7 @@ ul.slick-dots {
 
 .Modern-Slider .item h5 {
   margin-bottom: 50px;
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 200;
   letter-spacing: 2.5px;
   color:#FFF;
@@ -939,6 +939,20 @@ ul.slick-dots {
 
 .Modern-Slider {background:#000;}
 
+
+@media screen and (max-width: 761px){
+  .Modern-Slider .item h5 {
+    font-size: 18px;
+  }
+  .Modern-Slider .PrevArrow {
+    left: 5px;
+  }
+  .Modern-Slider .NextArrow{
+    right: 5px;
+  }
+
+
+}
 
 /* ==== Slick Slider Css Ruls === */
 .slick-slider{position:relative;display:block;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
@@ -1120,6 +1134,10 @@ subscribe
 Product list
 --------------------------------------------
 */
+#product-list{
+  background-color: #5fb759;
+  padding-bottom: 3em;
+}
 table thead{
   background-color: #2c0703;
   color: white;
