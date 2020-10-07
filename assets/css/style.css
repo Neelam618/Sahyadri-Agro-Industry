@@ -1007,11 +1007,16 @@ about
 }
 
 #about .right-text-content p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 27px;
   color: #777;
 }
-
+@media screen and (max-width: 576px){
+  #about .right-text-content p {
+    font-size: 16px;
+  }
+ 
+}
 
 /*
 ---------------------------------------------
