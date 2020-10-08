@@ -1056,6 +1056,9 @@ table thead{
 .table-hover tbody tr:hover {
     background: #ebd4cb;
 }
+.table td, .table th{
+  vertical-align: middle;
+}
 @media screen and (min-width:1000px){
   .table-container{
     width: 70%;
