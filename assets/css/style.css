@@ -1056,8 +1056,11 @@ table thead{
 .table-hover tbody tr:hover {
     background: #ebd4cb;
 }
-.table td, .table th{
+.table td, .table th, .table thead tr th{
   vertical-align: middle;
+}
+ .table thead tr th{
+    height: 50px;
 }
 @media screen and (min-width:1000px){
   .table-container{
