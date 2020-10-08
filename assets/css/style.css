@@ -1071,6 +1071,12 @@ table thead{
 }
 .download-btn button{
   font-weight: 500;
+  background-color: #17a2b8;
+  color: white;
+}
+.download-btn button:hover{
+  background-color: #5fb759;
+  color: white;
 }
 @media screen and (min-width:1000px){
   .table-container{
