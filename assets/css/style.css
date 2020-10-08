@@ -986,7 +986,6 @@ about
 }
 
 #about .container {
-  border-bottom: 5px solid #f7f7f7;
   padding-bottom: 80px;
 }
 
@@ -1061,6 +1060,9 @@ table thead{
 }
  .table thead tr th{
     height: 50px;
+}
+.download-btn{
+  border-bottom: 5px solid #f7f7f7;
 }
 @media screen and (min-width:1000px){
   .table-container{
