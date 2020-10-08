@@ -296,7 +296,7 @@ a.text-button-icon:hover i {
 
 .section-heading h6 {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 650;
   text-transform: uppercase;
   letter-spacing: 0.25px;
   margin-top: 0px;
@@ -304,8 +304,8 @@ a.text-button-icon:hover i {
 }
 
 .section-heading h2 {
-  font-size: 32px;
-  font-weight: 800;
+  font-size: 25px;
+  font-weight: 500;
   letter-spacing: 1px;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -1060,12 +1060,16 @@ table thead{
 }
 .table td, .table th, .table thead tr th{
   vertical-align: middle;
+  font-weight: 500;
 }
  .table thead tr th{
     height: 50px;
 }
 .download-btn{
   border-bottom: 5px solid #f7f7f7;
+}
+.download-btn button{
+  font-weight: 500;
 }
 @media screen and (min-width:1000px){
   .table-container{
@@ -1124,7 +1128,7 @@ Clients
 }
 
 #clients .item h4 {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
