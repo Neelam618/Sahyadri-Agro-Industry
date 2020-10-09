@@ -337,7 +337,9 @@ header
 .background-header .main-nav .nav li:hover a {
   color: #5fb759!important;
 }
-
+.main-nav .nav a:hover{
+  text-decoration: none;
+}
 .background-header .nav li a.active {
   color: #5fb759!important;
 }
@@ -1276,6 +1278,7 @@ contact
 }
 #contact-us .contact-info a{
   color: black;
+
 }
 #contact-us .contact-info a:hover{
   color: #17a2b8;
