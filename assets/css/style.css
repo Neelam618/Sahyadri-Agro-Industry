@@ -1076,6 +1076,10 @@ table thead{
   background-color: #5fb759;
   color: white;
 }
+.download-btn a:hover{
+  text-decoration: none;
+}
+
 @media screen and (min-width:1000px){
   .table-container{
     width: 70%;
