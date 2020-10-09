@@ -89,10 +89,6 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  text-decoration: none !important;
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1277,6 +1273,13 @@ contact
   background-image: url(../images/dotted-map-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
+}
+#contact-us .contact-info a{
+  color: black;
+}
+#contact-us .contact-info a:hover{
+  color: #17a2b8;
+  text-decoration: underline;
 }
 
 #contact {
