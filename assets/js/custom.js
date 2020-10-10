@@ -182,7 +182,10 @@
 				$("#preloader").css("visibility", "hidden").fadeOut();
 			}, 300);
 		});
-		$("#all-images").click();
+		setTimeout(function(){
+			$("#all-images").click(); 
+		}, 2000);
+		
 	});
 
 
